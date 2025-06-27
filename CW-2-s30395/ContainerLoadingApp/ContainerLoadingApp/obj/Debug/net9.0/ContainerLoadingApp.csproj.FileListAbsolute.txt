@@ -1,0 +1,15 @@
+C:\Users\olafu\Desktop\CW-2-s30395\ContainerLoadingApp\ContainerLoadingApp\bin\Debug\net9.0\ContainerLoadingApp.exe
+C:\Users\olafu\Desktop\CW-2-s30395\ContainerLoadingApp\ContainerLoadingApp\bin\Debug\net9.0\ContainerLoadingApp.deps.json
+C:\Users\olafu\Desktop\CW-2-s30395\ContainerLoadingApp\ContainerLoadingApp\bin\Debug\net9.0\ContainerLoadingApp.runtimeconfig.json
+C:\Users\olafu\Desktop\CW-2-s30395\ContainerLoadingApp\ContainerLoadingApp\bin\Debug\net9.0\ContainerLoadingApp.dll
+C:\Users\olafu\Desktop\CW-2-s30395\ContainerLoadingApp\ContainerLoadingApp\bin\Debug\net9.0\ContainerLoadingApp.pdb
+C:\Users\olafu\Desktop\CW-2-s30395\ContainerLoadingApp\ContainerLoadingApp\obj\Debug\net9.0\ContainerLoadingApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olafu\Desktop\CW-2-s30395\ContainerLoadingApp\ContainerLoadingApp\obj\Debug\net9.0\ContainerLoadingApp.AssemblyInfoInputs.cache
+C:\Users\olafu\Desktop\CW-2-s30395\ContainerLoadingApp\ContainerLoadingApp\obj\Debug\net9.0\ContainerLoadingApp.AssemblyInfo.cs
+C:\Users\olafu\Desktop\CW-2-s30395\ContainerLoadingApp\ContainerLoadingApp\obj\Debug\net9.0\ContainerLoadingApp.csproj.CoreCompileInputs.cache
+C:\Users\olafu\Desktop\CW-2-s30395\ContainerLoadingApp\ContainerLoadingApp\obj\Debug\net9.0\ContainerLoadingApp.sourcelink.json
+C:\Users\olafu\Desktop\CW-2-s30395\ContainerLoadingApp\ContainerLoadingApp\obj\Debug\net9.0\ContainerLoadingApp.dll
+C:\Users\olafu\Desktop\CW-2-s30395\ContainerLoadingApp\ContainerLoadingApp\obj\Debug\net9.0\refint\ContainerLoadingApp.dll
+C:\Users\olafu\Desktop\CW-2-s30395\ContainerLoadingApp\ContainerLoadingApp\obj\Debug\net9.0\ContainerLoadingApp.pdb
+C:\Users\olafu\Desktop\CW-2-s30395\ContainerLoadingApp\ContainerLoadingApp\obj\Debug\net9.0\ContainerLoadingApp.genruntimeconfig.cache
+C:\Users\olafu\Desktop\CW-2-s30395\ContainerLoadingApp\ContainerLoadingApp\obj\Debug\net9.0\ref\ContainerLoadingApp.dll
