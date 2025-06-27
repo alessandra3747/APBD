@@ -1,0 +1,151 @@
+REVENUE RECOGNITION APP
+
+---- Logowanie, rejestracja i autoryzacja pracowników ----
+
+	POST -> /auth/register
+	Body example:
+	{
+  		"username": "Maciej",
+  		"password": "StrongPassword123!"
+	}
+
+	POST -> /auth/login
+	Body example:
+	{
+  		"username": "Maciej",
+  		"password": "StrongPassword123!"
+	}
+	Odpowiedź zawiera token, potrzebny do testowania wymienionych przypadków użycia.
+
+
+	POST -> /auth/refresh
+	Body example:
+	"<token>"
+
+	POST -> /auth/sign-out
+	Body example:
+	"<token>"
+
+	POST -> /auth/sign-out-all
+
+
+---- Przypadki użycia:----
+
+ 1. dodaj klienta
+
+	POST -> /clients/individual
+	Header: Authorization: Bearer <token>
+	Body example:
+	{
+  	"firstName": "Jan",
+  	"lastName": "Kowalski",
+  	"address": "ul. Sezamkowa 1, Warszawa",
+  	"email": "jan.kowalski@mail.com",
+  	"phone": "123456789",
+  	"pesel": "90010112345"
+	}
+
+	POST -> /clients/company
+	Header: Authorization: Bearer <token>
+	Body example:
+	{
+  	"companyName": "Firma ABC",
+  	"address": "ul. Biznesowa 2, Warszawa",
+ 	"email": "firma@abc.pl",
+  	"phone": "987654321",
+  	"krs": "0000123456"
+	}
+	
+
+ 2. usuń klienta
+
+	DELETE -> /clients/individual/{id}
+
+	DELETE -> /clients/company/{id}
+
+
+ 3. zaktualizuj dane o kliencie
+
+	PUT -> /clients/individual/{id}
+	Header: Authorization: Bearer <token>
+	Body example:
+	{
+  	"firstName": "NowyJan",
+  	"lastName": "NowyKowalski",
+  	"address": "Nowa ul. Sezamkowa 1, Warszawa",
+  	"email": "Nowy jan.kowalski@mail.com",
+  	"phone": "000000000"
+	}
+
+	PUT-> /clients/company/{id}
+	Header: Authorization: Bearer <token>
+	Body example:
+	{
+  	"companyName": "Nowa Firma ABC",
+  	"address": "Nowa ul. Biznesowa 2, Warszawa",
+ 	"email": "Nowy firma@abc.pl",
+  	"phone": "000000000"
+	}
+
+
+ 4. stworzenie umowy
+
+	POST -> /contracts
+	Header: Authorization: Bearer <token>
+	Body example:
+	{
+	 "clientId": 1,
+	 "softwareProductId": 1,
+	 "softwareVersion": "2025.1",
+	 "startDate": "2025-06-15T00:00:00Z",
+	 "endDate": "2025-06-25T00:00:00Z",
+	 "supportExtensionYears": 1
+	}
+
+
+ 5. wystawienie płatności za umowę
+
+	POST -> /contracts/payment
+	Header: Authorization: Bearer <token>
+	Body example:
+	{
+  	"contractId": 1,
+  	"amount": 10500,
+  	"paymentDate": "2025-06-16T00:00:00Z"
+	}
+
+
+ 6. Obliczanie przychodu
+
+	POST -> /revenue/current
+	Header: Authorization: Bearer <token>
+	Body example:
+	{
+  	"currency": "PLN"
+	}
+
+	POST -> /revenue/current
+	Header: Authorization: Bearer <token>
+	Body example:
+	{
+	"productId": 1,
+  	"currency": "PLN"
+	}
+
+
+ 7. Obliczanie przewidywanego przychodu
+
+	POST -> /revenue/forecast
+	Header: Authorization: Bearer <token>
+	Body example:
+	{
+  	"currency": "USD"
+	}
+
+	POST -> /revenue/forecast
+	Header: Authorization: Bearer <token>
+	Body example:
+	{
+  	"productId": 1,
+  	"currency": "USD"
+	}
