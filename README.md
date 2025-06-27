@@ -7,6 +7,6 @@
 This repository contains projects I made for the APBD (Database Applications) course during studies on [PJAIT](https://pja.edu.pl/).
 
 The project RevenueRecognitionApi is the final project for this course, uses JWT authorization and shows what I have learned during this class.
-[RevenueRecognitionApi]([https://pja.edu.pl/](https://github.com/alessandra3747/APBD/tree/main/RevenueRecognitionApi)).
+CLICK HERE -> [RevenueRecognitionApi](https://github.com/alessandra3747/APBD/tree/main/RevenueRecognitionApi)
 
 </div>
