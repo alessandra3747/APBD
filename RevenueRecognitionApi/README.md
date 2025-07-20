@@ -99,6 +99,3 @@ All endpoints (except `/api/auth/*`) require a valid JWT in the `Authorization` 
 ```
 Authorization: Bearer <your_token>
 ```
-
----
-> **Empower your SaaS or software business with transparent, automated revenue recognition.**
